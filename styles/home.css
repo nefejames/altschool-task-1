@@ -1,0 +1,120 @@
+/*  utility class */
+.grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: #000;
+  padding: 4rem;
+}
+
+.card .edu {
+  font-size: 2.4rem;
+}
+
+.card .number {
+  font-size: 3rem;
+  color: #8c8c91;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+/* personal info section styles */
+.about {
+  margin-bottom: 4rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy {
+  margin-bottom: 4rem;
+}
+
+.img-box {
+  width: 100%;
+  height: 42rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h1 span {
+  font-size: inherit;
+}
+
+h1 .name {
+  color: #8c8c91;
+}
+
+.copy p,
+.copy a {
+  font-size: 2.4rem;
+}
+
+.copy a {
+  color: #8c8c91;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .copy p {
+    width: 75%;
+  }
+
+  .img-box {
+    width: 75.6rem;
+    height: 62rem;
+  }
+
+  h1 {
+    font-size: 7.6rem;
+  }
+
+  .copy {
+    margin-bottom: 0;
+  }
+}
+
+/* goal section styles */
+.goal {
+  background: #000;
+}
+
+.goal .section-wrapper {
+  max-width: 90rem;
+}
+
+/* experience section styles */
+.experience {
+  background: #000;
+}
+
+.experience .card {
+  padding-left: 0;
+  padding-left: 0;
+}
+
+/* hobbies section styles */
+.hobbies li {
+  list-style: circle inside;
+}

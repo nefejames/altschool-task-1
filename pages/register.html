@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/form.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <nav class="nav">
+        <ul>
+          <li><a href="/">About </a></li>
+          <li><a href="/pages/contact.html">Contact </a></li>
+          <li><a href="/pages/login.html">Login</a></li>
+          <li><a href="/pages/register.html">Register</a></li>
+          <li><a href="/pages/table-calculator.html">Table Calc</a></li>
+          <li><a href="/pages/flex-calculator.html">Flex Calc</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="section-wrapper">
+        <h1>Register</h1>
+        <form>
+          <div class="form-row">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" required />
+          </div>
+          <div class="form-row">
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone:</label>
+            <input type="text" name="name="phone"" id="name="phone"" required />
+          </div>
+          <div class="form-row select-form-row">
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+              <option value="">Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="country">Country:</label>
+            <input type="text" name="country" id="country" required />
+          </div>
+          <div class="form-row">
+            <label for="state">State/Province:</label>
+            <input type="text" name="state" id="state" required />
+          </div>
+          <div class="form-row">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required />
+          </div>
+          <div class="form-row">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div class="form-row">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+main {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 600px;
+  }
+}
+
+.table-container {
+  width: 40rem;
+  padding: 4rem 2rem;
+  background: #000;
+}
+
+input[type="text"] {
+  width: 100%;
+  background: #17171c;
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  margin-bottom: 3rem;
+}
+
+input[type="text"]:focus {
+  outline: 1px solid #3cc47e;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row:first-child input[type="button"] {
+  flex-grow: 1;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+input[type="button"] {
+  border: none;
+  color: inherit;
+  background: inherit;
+  font-size: 3.2rem;
+
+  width: 7rem;
+  height: 7rem;
+  color: #fff;
+  background: #17171c;
+
+  cursor: pointer;
+  transition: color 0.1s, background-color 0.2s;
+}
+
+input[type="button"]:hover {
+  color: #000;
+  background: #3cc47e;
+}
+
+.row:last-child input[type="button"]:last-child {
+  color: #000;
+  background: #fff;
+}
+
+.row:last-child input[type="button"]:last-child:hover {
+  color: #fff;
+  background: #17171c;
+}

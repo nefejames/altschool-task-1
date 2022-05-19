@@ -1,0 +1,67 @@
+h1 {
+  margin-bottom: 4rem;
+}
+
+form {
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.form-row.select-form-row {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+input {
+  padding: 2rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input,
+textarea {
+  width: 100%;
+  background: #000;
+  border: none;
+}
+
+select {
+  width: 15rem;
+  padding: 1rem 0 1rem 1rem;
+  border: none;
+  background: #000;
+}
+
+button {
+  width: 100%;
+  padding: 2rem 0;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+  background: #3cc47e;
+  text-transform: uppercase;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 60rem;
+  }
+}
